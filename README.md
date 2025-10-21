@@ -26,6 +26,9 @@ Método 2: cálculo do coeficiente angular da regressão linear
 <br>
 <p>
 
+<img width="721" height="448" alt="image" src="https://github.com/user-attachments/assets/9ce73a73-d47e-4bb9-ac28-1029f381a6c7" />
+
+
 ## Cálculo de Correlação
 
 Para as análises assumimos o período de 5 anos de série histórica como feito no item anterior.
