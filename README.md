@@ -1,20 +1,17 @@
 # QuantitativeAnalysisProject
 This project has the goal to analyze the correlation between return of the stocks AMZN, GOOGL and WMT. 
 
----
 
 ## Introdução
----
 Como referência, foi utilizada a data de 9 de outubro de 2025. Serão analisadas as ações da Amazon (AMZN), Walmart (WMT) e Google (GOOGL). O estudo consistirá em quatro análises a serem feitas a seguir:
 - 1. Cálculo do Beta da Amazon em relação ao S&P 500
 - 2. Correlação entre Amazon Walmart e Google e teste de significância
 - 3. Análise Fundamental
 - 4. Volatilidade e Risco
 
----
 
 ## 1. Beta
----
+
 O fator beta é um indicador que pode medir a volatilidade de um ativo em relação a uma outra variável. Para calculá-lo foram utilizados duas metodologias:
 
 Método 1: cálculo baseado na relação estatística
@@ -27,7 +24,7 @@ Método 2: cálculo do coeficiente angular da regressão linear
 <p>
 
 ## Cálculo de Correlação
----
+
 Para as análises assumimos o período de 5 anos de série histórica como feito no item anterior.
 <br>
 A correlação (𝜌) foi calculada conforme a fórmula. Foi utilizado também o método .corr() do pandas, para comparação.
@@ -38,7 +35,7 @@ $$
 $$
 <p>
 
----
+
 
 ### Interpretação da correlação
 
@@ -54,10 +51,10 @@ r=0.77, t = 10.36, p≈0.00000 → existe uma correlação positiva forte e alta
 
 Assim, conclui-se que os retornos da Amazon estão claramente relacionados aos de ambas as empresas, mas a relação é muito mais intensa com o Google. Podemos concluir que as ações se comportam de forma semelhante
 
----
+
 
 ## 3. Análise Fundamental
----
+
 A Amazon atua em dois segmentos principais: serviços de computação em nuvem (AWS) e comércio eletrônico. Essa diversificação posiciona a empresa em um ponto de interseção entre setores distintos, competindo tanto com o Walmart, no varejo digital, quanto com o Google e outras big techs, no setor de tecnologia e infraestrutura em nuvem.
 
 Na análise de correlações entre retornos de ações, observou-se que os retornos da Amazon e da Google apresentam alta correlação, evidenciando que ambas as empresas tendem a seguir tendências semelhantes de valorização e desvalorização. Essa relação indica que o desempenho de mercado da Amazon está mais fortemente associado ao segmento tecnológico, especialmente aos serviços de cloud computing e publicidade digital, do que às atividades puramente de varejo. A análise de significância estatística reforça essa conclusão, mostrando que a relação entre Amazon e Google é consistente e relevante do ponto de vista estatístico e econômico.
@@ -68,27 +65,27 @@ O beta da Amazon, estimado em 1,36, indica alta sensibilidade em relação ao me
 
 Em resumo, a análise demonstra que o desempenho da Amazon está mais alinhado às tendências do setor de tecnologia do que ao varejo tradicional, o que reforça sua natureza híbrida — uma companhia que, apesar de forte no e-commerce, é hoje impulsionada pelos resultados da AWS e dos serviços digitais.
 
----
+
 
 ## 4. Análise de Volatilidade
----
 
 Foi calculada a volatilidade diária média dos últimos 5 anos, que corresponde ao desvio padrão da série histórica. Mas para a análise de risco foi analisada a volatilidade anual pois faria mais sentido para comparar análises de longo prazo, para assim decidir qual é mais arriscada.
 
 
 Volatilidade média diária
- AMZN     0.022069
-GOOGL    0.019539
-WMT      0.012921
-dtype: float64
+|---|---|
+|AMZN|0.022069|
+|GOOGL|0.019539|
+|WMT|0.012921|
+
 Volatilidade média anual
- AMZN     0.350341
-GOOGL    0.310167
-WMT      0.205113
-dtype: float64
+|---|---|
+|AMZN|0.350341|
+|GOOGL|0.310167|
+|WMT|0.205113|
 
 ## Conclusões
----
+
 Com base nos valores calculados, observa-se que a Amazon apresenta a maior volatilidade média dos retornos nos últimos cinco anos. Além disso, seu beta elevado indica maior sensibilidade ao desempenho do mercado, especialmente ao movimento do S&P 500. Em conjunto, esses fatores evidenciam que a Amazon possui o nível de risco mais elevado entre as empresas analisadas.
 Sua atuação em setores como tecnologia, computação em nuvem e e-commerce, faz com que seus retornos sejam fortemente impactados por mudanças nas condições macroeconômicas e nas expectativas de crescimento global.
 
