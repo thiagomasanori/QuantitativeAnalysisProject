@@ -16,7 +16,7 @@ O fator beta é um indicador que pode medir a volatilidade de um ativo em relaç
 
 Método 1: cálculo baseado na relação estatística
 $$
-  β: \frac{covariance(r_{1},r_{2})}{variance(r_{1})}
+β: \frac{covariance(r_{1},r_{2})}{variance(r_{1})}
 $$
 
 Método 2: cálculo do coeficiente angular da regressão linear
