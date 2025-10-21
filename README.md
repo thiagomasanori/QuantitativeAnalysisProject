@@ -72,17 +72,17 @@ Em resumo, a análise demonstra que o desempenho da Amazon está mais alinhado �
 Foi calculada a volatilidade diária média dos últimos 5 anos, que corresponde ao desvio padrão da série histórica. Mas para a análise de risco foi analisada a volatilidade anual pois faria mais sentido para comparar análises de longo prazo, para assim decidir qual é mais arriscada.
 
 
-Volatilidade média diária
-|---|---|
-|AMZN|0.022069|
-|GOOGL|0.019539|
-|WMT|0.012921|
+Ticker | Volatilidade média diária
+--- | ---
+AMZN | 0.022069
+GOOGL | 0.019539
+WMT | 0.012921
 
-Volatilidade média anual
-|---|---|
-|AMZN|0.350341|
-|GOOGL|0.310167|
-|WMT|0.205113|
+Ticker | Volatilidade média anual
+--- | ---
+AMZN | 0.350341
+GOOGL | 0.310167
+WMT | 0.205113
 
 ## Conclusões
 
