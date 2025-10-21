@@ -15,9 +15,12 @@ Como referência, foi utilizada a data de 9 de outubro de 2025. Serão analisada
 O fator beta é um indicador que pode medir a volatilidade de um ativo em relação a uma outra variável. Para calculá-lo foram utilizados duas metodologias:
 
 Método 1: cálculo baseado na relação estatística
+<p>
 $$
-β: \frac{covariance(r_{1},r_{2})}{variance(r_{1})}
+  \beta = \frac{covariance(r_{1},r_{2})}{variance(r_{1})}
 $$
+</p>
+
 
 Método 2: cálculo do coeficiente angular da regressão linear
 <br>
