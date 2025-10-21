@@ -38,7 +38,12 @@ $$
 $$
 <p>
 
-
+*Correlação entre os ativos:*
+ Ticker | AMZN | WMT | GOOGL
+--- | --- | --- | ---
+AMZN | 1.000000 | 0.268064 | 0.616656
+WMT |  0.268064 | 1.000000 | 0.202805
+GOOGL | 0.616656 | 0.202805 | 1.000000 
 
 ### Interpretação da correlação
 
