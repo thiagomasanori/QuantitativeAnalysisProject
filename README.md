@@ -110,3 +110,10 @@ Apesar de ser uma métrica central para avaliar o comportamento dos retornos, a 
 * Riscos operacionais e regulatórios, decorrentes de mudanças legais, concorrência e inovação tecnológica.
 
 Portanto, a avaliação de risco deve integrar tanto indicadores quantitativos (como volatilidade e beta) quanto aspectos qualitativos relacionados à gestão, competitividade e fundamentos econômicos da empresa.
+
+
+## References
+1. https://algotrading101.com/learn/yahoo-finance-api-guide/
+2. https://pages.stern.nyu.edu/~adamodar/podcasts/cfspr20/session7slides.pdf
+3. https://www.investopedia.com/terms/c/correlationcoefficient.asp
+4. https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
