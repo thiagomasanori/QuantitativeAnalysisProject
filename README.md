@@ -3,7 +3,7 @@ This project has the goal to analyze the correlation between return of the stock
 
 
 ## Introduction
-Como referência, foi utilizada a data de 9 de outubro de 2025. Serão analisadas as ações da Amazon (AMZN), Walmart (WMT) e Google (GOOGL). O estudo consistirá em quatro análises a serem feitas a seguir:
+Como referência, foi utilizada a data de 9 de outubro de 2025. Serão analisadas as ações da Amazon (AMZN), Walmart (WMT) e Google (GOOGL). O estudo contou com quatro análises:
 - 1. Cálculo do Beta da Amazon em relação ao S&P 500
 - 2. Correlação entre Amazon Walmart e Google e teste de significância
 - 3. Análise Fundamental
