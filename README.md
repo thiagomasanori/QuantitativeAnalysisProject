@@ -12,7 +12,7 @@ Como referência, foi utilizada a data de 9 de outubro de 2025. Serão analisada
 
 ## 1. Beta
 
-O fator beta é um indicador que pode medir a volatilidade de um ativo em relação a uma outra variável. Para calculá-lo foram utilizados duas metodologias:
+O fator beta é um indicador que pode medir a volatilidade de um ativo em relação a uma outra variável, no caso foi utilizado o S&P500, que é a taxa de referência mais usual. Para calculá-lo foram utilizados duas metodologias:
 
 Método 1: cálculo baseado na relação estatística
 <p>
